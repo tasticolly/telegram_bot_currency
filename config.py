@@ -6,3 +6,5 @@ payload = {}
 headers = {
     "apikey": "LyiFn362dNFlBrNxQhV2EgaB15OD4MuG"
 }
+
+request_frequency = 8 * 60 * 60
