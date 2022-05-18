@@ -83,7 +83,7 @@ def values(message):
             if ("/" in message.text):
                 text = message.text.split('/')
             else:
-                text = message.split()
+                text = message.text.split()
             user.v_from = text[0]
             user.v_to = text[1]
             updateApi()
@@ -136,3 +136,4 @@ def choose_action(message):
 
 
 bot.polling(none_stop=True)
+
